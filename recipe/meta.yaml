@@ -1,4 +1,4 @@
-{% set version = '0.1.1' %}
+{% set version = "0.1.2" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/autoplotly_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/autoplotly/autoplotly_{{ version }}.tar.gz
-  sha256: 40d25f0fcec009260d504d4e55a299347ce8584c3bf8838d81e0a6d68039a1de
+  sha256: e835281e2536252814b805713a0ac693f782e130b4467a864d1bb8c493fc5f2a
 
 build:
   number: 0
