@@ -14,14 +14,16 @@ Summary: Functionalities to automatically generate interactive visualizations fo
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-autoplotly-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-autoplotly-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-autoplotly-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-autoplotly-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-autoplotly-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-autoplotly-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-autoplotly-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-autoplotly-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-autoplotly-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-autoplotly-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-autoplotly-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-autoplotly-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-autoplotly/badges/version.svg)](https://anaconda.org/conda-forge/r-autoplotly)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-autoplotly/badges/downloads.svg)](https://anaconda.org/conda-forge/r-autoplotly)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--autoplotly-green.svg)](https://anaconda.org/conda-forge/r-autoplotly) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-autoplotly.svg)](https://anaconda.org/conda-forge/r-autoplotly) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-autoplotly.svg)](https://anaconda.org/conda-forge/r-autoplotly) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-autoplotly.svg)](https://anaconda.org/conda-forge/r-autoplotly) |
 
 Installing r-autoplotly
 =======================
