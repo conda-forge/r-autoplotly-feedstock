@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
   rpaths:
     - lib/R/lib/
     - lib/
@@ -41,13 +41,13 @@ test:
 
 about:
   home: https://github.com/terrytangyuan/autoplotly
-  license: Apache 2.0
-  summary: Functionalities to automatically generate interactive visualizations for popular statistical
-    results supported by 'ggfortify', such as time series, PCA, clustering and survival
-    analysis, with 'plotly.js' <https://plot.ly/> and 'ggplot2' style. The generated visualizations can
-    also be easily extended using 'ggplot2' and 'plotly' syntax while staying interactive.
+  license: GPL-2.0-only
+  summary: Functionalities to automatically generate interactive visualizations for popular statistical results supported by 'ggfortify', such as time series, PCA, clustering and survival analysis, with 'plotly.js' <https://plot.ly/> and 'ggplot2' style. The generated visualizations can also be easily extended using 'ggplot2'
+    and 'plotly' syntax while staying interactive.
   license_family: APACHE
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 extra:
   recipe-maintainers:
     - conda-forge/r
