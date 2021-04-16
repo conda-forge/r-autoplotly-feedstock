@@ -8,15 +8,15 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: autoplotly_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/autoplotly_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/autoplotly/autoplotly_{{ version }}.tar.gz
   sha256: fc6cd128f8ca3f4d0b4c57bd7c6981dac4641f54a51c9331e7c51f4c14a5e782
 
 build:
-  noarch: generic
+  merge_build_host: True  # [win]
   number: 0
+  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
@@ -44,15 +44,10 @@ about:
   license: GPL-2.0-only
   summary: Functionalities to automatically generate interactive visualizations for popular statistical results supported by 'ggfortify', such as time series, PCA, clustering and survival analysis, with 'plotly.js' <https://plot.ly/> and 'ggplot2' style. The generated visualizations can also be easily extended using 'ggplot2'
     and 'plotly' syntax while staying interactive.
-  license_family: APACHE
-
+  license_family: GPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - cbrueffer
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
