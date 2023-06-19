@@ -1,11 +1,11 @@
-About r-autoplotly
-==================
+About r-autoplotly-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-autoplotly-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/terrytangyuan/autoplotly
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-autoplotly-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functionalities to automatically generate interactive visualizations for popular statistical results supported by 'ggfortify', such as time series, PCA, clustering and survival analysis, with 'plotly.js' <https://plot.ly/> and 'ggplot2' style. The generated visualizations can also be easily extended using 'ggplot2' and 'plotly' syntax while staying interactive.
 
